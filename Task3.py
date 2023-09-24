@@ -5,7 +5,28 @@ lowercase = uppercase.lower()
 numbers = "1234567890"
 sym = "`~!@#$%^&*()_+[]{}|\:;'?/>.,<"
 
-upp, lowe, symb, num = True, True, True, True
+u = input("Do you want uppercase letters in your password (y/n): ")
+if u == 'y':
+    upp = True
+else:
+    upp = False
+l = input("Do you want lowercase letters in your password (y/n): ")
+if l == 'y':
+    lowe = True
+else:
+    lowe = False
+s = input("Do you want symbols in your password (y/n): ")
+if s == 'y':
+    symb = True
+else:
+    symb = False
+
+n = input("Do you want numbers in your password (y/n): ")
+if n == 'y':
+    num = True
+else:
+    num = False
+
 
 pss = ""
 if upp:
