@@ -1,7 +1,2 @@
-# CODSOFT
-these are the following python programs for Codsoft internship:      
-
-1-Calculator		 	
-
-2-Scissor Paper Rock	
-
+# Python projects
+Did these projects for better understanding of python.
